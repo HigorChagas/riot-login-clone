@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../../imgs/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.logo-img {
+    width: 100%;
+    max-width: 140px;
+    margin: 28px;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 400px;
+    height: 535px;
+    background-color: #fff;
+}
+
+.form-title {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 38px;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    font-weight: 700;
+    line-height: 100%;
+    background: #ededed;
+    line-height: 1.1em;
+    width: 75%;
+    min-height: 3.325em;
+    border: 1px transparent;
+    display: block;
+    margin: 5px;
+    font-size: 1.0rem;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.form-input:focus {
+    border: 1px solid #000;
+    transition: ease-in-out 200ms;
+}
+
+::placeholder {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.social-media-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.social-buttons {
+    width: 65px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-buttons:hover {
+    opacity: 0.9;
+}
+
+.social-buttons:nth-child(1) {
+    background-color: #0966DE;
+    border: 1px solid #0962D5;
+}
+
+.social-buttons:nth-child(2) {
+    border: 1px solid #F9F9F9;
+}
+
+.social-buttons:nth-child(3) {
+    background-color: #141414;
+    border: 1px solid #202020;
+}
+
+.social-buttons:nth-child(4) {
+    background-color: #076907;
+    border: 1px solid #076407;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+i {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.checkbox-container {
+    margin-left: 35px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-checkbox {
+    width: 16px;
+    height: 18px;
+    color: #DBDBDB;
+    margin-left: 20px;
+}
+
+.login-checkbox:hover {
+    background-color: #dbdbdbbd;
+    text-align: center;
+}
+
+.checkbox-span {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-login {
+    background-color: #d13639;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #BC252A;
+}
+
+.fa-arrow-right {
+    font-size: 1.5rem;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.links {
+    color: #666;
+}
+
+.links:hover {
+    color: #333333;
+}
+
+.footer-container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    background: linear-gradient(360deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+
+}
+
+.footer-link {
+    color: rgba(249,249,249,0.65);
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.copyright-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-copyright {
+    color: rgba(249,249,249,0.65);;
+}
